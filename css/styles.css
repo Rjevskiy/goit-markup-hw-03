@@ -192,7 +192,7 @@ gap: 40px;}
 .ourteam-h{
     font-weight: 700;
     font-size: 36px;
-    line-height:1.11;} 
+    text-align: center;} 
 
 .photo-container{display: flex;
     flex-direction: row;
