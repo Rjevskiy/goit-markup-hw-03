@@ -35,7 +35,7 @@ button {cursor: pointer;}
     border-bottom: 1px solid #e7e9fc;}
 
 .nav-menu{display: flex;
-gap: 40px;}
+    gap: 40px;}
 
 .logo{font-family:"Raleway",sans-serif;
     font-weight: 700;
@@ -87,10 +87,10 @@ gap: 40px;}
 
 /*=========hero page===========*/ 
 
-    .hero{background-color:#2e2f42;
-        max-width: 1440px;
-        margin-left: auto;
-        margin-right: auto;}
+.hero{background-color:#2e2f42;
+    max-width: 1440px;
+    margin-left: auto;
+    margin-right: auto;}
 
 .hero-container{display: flex;
     flex-direction: column;
@@ -257,7 +257,6 @@ gap: 40px;}
     font-size: 18px;
     line-height: 1.17;
     letter-spacing: 0.03em;
-    
     color:  #4d5ae5;}
     
 .footer-logo-raleway{color: #f4f4fd;}
