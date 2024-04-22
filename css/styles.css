@@ -169,7 +169,8 @@ button {cursor: pointer;}
 
 /*============our team============*/
 
-.our-team-container{display: flex;
+.our-team-container{
+    display: flex;
     background: #f4f4fd;
     max-width: 1440px;
     margin-left: auto;
@@ -177,8 +178,7 @@ button {cursor: pointer;}
     padding-top: 60px;
     padding-bottom: 60px;}
 
-
-.ourteam-h{
+    .ourteam-h{
     font-weight: 700;
     font-size: 36px;
     text-align: center;} 
