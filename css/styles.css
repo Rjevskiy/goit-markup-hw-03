@@ -34,6 +34,13 @@ button {cursor: pointer;}
 .header{ line-height: 1.17;
     border-bottom: 1px solid #e7e9fc;}
 
+.header-container{display: flex;
+    align-items: center;
+}  
+
+.page-navigation{display: flex;
+    align-items: center;}
+
 .nav-menu{display: flex;
     gap: 40px;}
 
@@ -87,10 +94,10 @@ button {cursor: pointer;}
 
 /*=========hero page===========*/ 
 
-.hero{background-color:#2e2f42;
-    max-width: 1440px;
-    margin-left: auto;
-    margin-right: auto;}
+    .hero{background-color:#2e2f42;
+        max-width: 1440px;
+        margin-left: auto;
+        margin-right: auto;}
 
 .hero-container{display: flex;
     flex-direction: column;
@@ -133,16 +140,16 @@ button {cursor: pointer;}
 /*===========hero page===============*/ 
 
 .benefits-container{
+    width calc: ((100%-72px)/4);
     display: flex;
     flex-direction: row;
-    width: calc((100% - 72px) / 4);
     justify-content:space-evenly;
     align-items: stretch ;
     gap: 24px;
     padding-top: 120px;
     padding-bottom: 60px;}
-    
-.visually-hidden{
+
+.visually-hidden {
     position: absolute;
     width: 1px;
     height: 1px;
@@ -169,8 +176,7 @@ button {cursor: pointer;}
 
 /*============our team============*/
 
-.our-team-container{
-    display: flex;
+.our-team-container{display: flex;
     background: #f4f4fd;
     max-width: 1440px;
     margin-left: auto;
@@ -178,19 +184,22 @@ button {cursor: pointer;}
     padding-top: 60px;
     padding-bottom: 60px;}
 
-    .ourteam-h{
+
+.ourteam-h{
     font-weight: 700;
     font-size: 36px;
     text-align: center;} 
 
 .photo-container{display: flex;
     flex-direction: row;
-    width: calc((100% - 72px) / 4);
+    width calc: ((100%-72px)/4);
     gap: 24px;
     border-radius: 0 0 4px 4px;
     padding-top: 120px;
     padding-bottom: 60px;}
 
+ 
+ 
 .ourteam-fhoto{
     background-color:#FFFFFF;}    
 
@@ -205,11 +214,13 @@ button {cursor: pointer;}
 
 /*============Our Portfolio============*/
 
+
+
 .portfolio-container{
     display: flex;
     flex-wrap: wrap; 
     gap: 24px;
-    width: calc((100%-72px)/4);
+    width calc: ((100%-72px)/4);
     padding-bottom: 120px;}
 
 .op-h{
@@ -253,8 +264,9 @@ button {cursor: pointer;}
     font-size: 18px;
     line-height: 1.17;
     letter-spacing: 0.03em;
-    color: #4d5ae5;}
-
+    
+    color:  #4d5ae5;}
+    
 .footer-logo-raleway{color: #f4f4fd;}
    
 .footer-item{
