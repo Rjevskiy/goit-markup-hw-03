@@ -149,8 +149,7 @@ button {cursor: pointer;}
     padding-top: 120px;
     padding-bottom: 60px;}
 
-.visually-hidden {
-    position: absolute;
+.visually-hidden {position: absolute;
     width: 1px;
     height: 1px;
     margin: -1px;
@@ -161,15 +160,13 @@ button {cursor: pointer;}
     clip: rect(0 0 0 0);
     overflow: hidden;}
 
-.benefits-item{
-    font-weight: 500;
+.benefits-item{font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color:#2e2f42;}
 
-.benefits-link{
-    font-weight: 400;
+.benefits-link{font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;}
@@ -185,8 +182,7 @@ button {cursor: pointer;}
     padding-bottom: 60px;}
 
 
-.ourteam-h{
-    font-weight: 700;
+.ourteam-h{font-weight: 700;
     font-size: 36px;
     text-align: center;} 
 
@@ -197,10 +193,9 @@ button {cursor: pointer;}
     padding-top: 120px;
     padding-bottom: 60px;}
     
-.ourteam-fhoto{
-    background-color:#FFFFFF;}    
+.ourteam-fhoto{background-color:#FFFFFF;}    
 
-.ourteam-item{ text-align: center;
+.ourteam-item{text-align: center;
     padding-top: 32px;}    
 
 .ourteam-link{padding-top: 4px;
