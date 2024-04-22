@@ -12,18 +12,14 @@ h3,
 h4, 
 h5, 
 h6, 
-p {
-    margin: 0;}
-ul, ol {
-    margin: 0;
-    padding: 0;}
+p {margin: 0;}
+ul, ol {margin: 0;padding: 0;}
 
 img{display: block;}
 
 button {cursor: pointer;}
 
-.container { 
-    max-width: 1158px;
+.container {max-width: 1158px;
     padding: 0 15px;
     margin:  0 auto;}
 
@@ -31,7 +27,7 @@ button {cursor: pointer;}
 
 /*========HEADER==============*/
 
-.header{ line-height: 1.17;
+.header{line-height: 1.17;
     border-bottom: 1px solid #e7e9fc;}
 
 .header-container{display: flex;
@@ -56,15 +52,13 @@ button {cursor: pointer;}
 .logo-text-roboto{color: #2e2f42;}
 
 .menu-link:hover, 
-.menu-link:focus{
-    font-weight: 500;
+.menu-link:focus{font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color:#404bbf;}
 
-.menu-link{
-    font-weight: 500;
+.menu-link{font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -85,8 +79,7 @@ button {cursor: pointer;}
     color:#434455;}  
 
     .address-item:hover,   
-.address-item:focus{
-    font-weight: 400;
+.address-item:focus{font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -109,8 +102,7 @@ button {cursor: pointer;}
     padding-right: 331px;}
 
 
-.hero-page{
-    font-weight: 700px; 
+.hero-page{font-weight: 700px; 
     font-size: 56px;
     line-height: 1.07;
     letter-spacing: 0.02em;
@@ -119,15 +111,13 @@ button {cursor: pointer;}
  
 
 
-.button-item{
-    border: none;
+.button-item{border: none;
     min-width: 169px;
     padding-top: 16px;
     padding-bottom: 16px;
     padding-left: 32px;
     padding-right: 32px;
     border-radius: 4px;
-
     background:#4d5ae5;
     color:#fff;    
     font-weight:500;
@@ -139,8 +129,7 @@ button {cursor: pointer;}
 
 /*===========benefits page===============*/ 
 
-.benefits-container{
-    width: 1128px;
+.benefits-container{width: 1128px;
     display: flex;
     flex-direction: row;
     justify-content:space-evenly;
@@ -228,8 +217,7 @@ button {cursor: pointer;}
     border-left: 1px solid #e7e9fc;
     border-right: 1px solid #e7e9fc;}    
 
-.op-item{
-    font-weight: 500;
+.op-item{font-weight: 500;
     font-size: 20px;
     line-height:1.2;
     letter-spacing: 0.02em;
@@ -237,8 +225,7 @@ button {cursor: pointer;}
     padding-top: 32px;
     padding-bottom: 4px;}  
 
-.op-link{
-    font-weight: 400;
+.op-link{font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -261,18 +248,17 @@ button {cursor: pointer;}
     flex-direction: column;
     max-width: 420px;
     padding-left: 140px;}
+
 .footer-logo{font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
     line-height: 1.17;
     letter-spacing: 0.03em;
-    
-    color:  #4d5ae5;}
+    color:#4d5ae5;}
     
 .footer-logo-raleway{color: #f4f4fd;}
    
-.footer-item{
-    line-height: 1.5;
+.footer-item{line-height: 1.5;
     letter-spacing: 0.02em;
     color: #f4f4fd;}
     
