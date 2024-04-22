@@ -137,14 +137,14 @@ button {cursor: pointer;}
 .button-item:hover,
 .button-item:focus{background:#404bbf;}        
 
-/*===========hero page===============*/ 
+/*===========benefits page===============*/ 
 
 .benefits-container{
-    width calc: ((100%-72px)/4);
+    width: 1128px;
     display: flex;
     flex-direction: row;
     justify-content:space-evenly;
-    align-items: stretch ;
+    align-items: stretch;
     gap: 24px;
     padding-top: 120px;
     padding-bottom: 60px;}
@@ -192,16 +192,21 @@ button {cursor: pointer;}
 
 .photo-container{display: flex;
     flex-direction: row;
-    width calc: ((100%-72px)/4);
     gap: 24px;
     border-radius: 0 0 4px 4px;
     padding-top: 120px;
     padding-bottom: 60px;}
-
- 
+    
+    
  
 .ourteam-fhoto{
-    background-color:#FFFFFF;}    
+    background-color:#FFFFFF;
+    
+}    
+
+.ourteam-item{ text-align: center;
+    padding-top: 32px;
+}    
 
 .ourteam-link{
     padding-top: 4px;
@@ -214,20 +219,27 @@ button {cursor: pointer;}
 
 /*============Our Portfolio============*/
 
-
-
 .portfolio-container{
     display: flex;
     flex-wrap: wrap; 
-    gap: 24px;
-    width calc: ((100%-72px)/4);
+    gap: 18px;
+    width: 1128;
+    padding-top: 70px;
     padding-bottom: 120px;}
 
 .op-h{
+    text-align: center;
+    padding-top: 60px;
     font-weight: 700;
     font-size: 36px;
     line-height:1.11;
     letter-spacing: 0.02em;}    
+
+.li-container{display: flex;
+    flex-direction: column;
+    border-bottom: 1px solid #e7e9fc;
+    border-left: 1px solid #e7e9fc;
+    border-right: 1px solid #e7e9fc;}    
 
 .op-item{
     font-weight: 500;
