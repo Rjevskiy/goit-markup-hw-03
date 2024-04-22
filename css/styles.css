@@ -133,15 +133,15 @@ button {cursor: pointer;}
 /*===========hero page===============*/ 
 
 .benefits-container{
-    width calc: ((100%-72px)/4);
     display: flex;
     flex-direction: row;
+    width: calc((100% - 72px) / 4);
     justify-content:space-evenly;
     align-items: stretch ;
     gap: 24px;
     padding-top: 120px;
     padding-bottom: 60px;}
-
+    
 .visually-hidden{
     position: absolute;
     width: 1px;
@@ -185,15 +185,12 @@ button {cursor: pointer;}
 
 .photo-container{display: flex;
     flex-direction: row;
-    width calc: ((100%-72px)/4);
+    width: calc((100% - 72px) / 4);
     gap: 24px;
     border-radius: 0 0 4px 4px;
     padding-top: 120px;
     padding-bottom: 60px;}
 
-    
-
-    
 .ourteam-fhoto{
     background-color:#FFFFFF;}    
 
@@ -208,13 +205,11 @@ button {cursor: pointer;}
 
 /*============Our Portfolio============*/
 
-
-
 .portfolio-container{
     display: flex;
     flex-wrap: wrap; 
     gap: 24px;
-    width calc: ((100%-72px)/4);
+    width: calc((100%-72px)/4);
     padding-bottom: 120px;}
 
 .op-h{
