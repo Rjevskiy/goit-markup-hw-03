@@ -197,19 +197,13 @@ button {cursor: pointer;}
     padding-top: 120px;
     padding-bottom: 60px;}
     
-    
- 
 .ourteam-fhoto{
-    background-color:#FFFFFF;
-    
-}    
+    background-color:#FFFFFF;}    
 
 .ourteam-item{ text-align: center;
-    padding-top: 32px;
-}    
+    padding-top: 32px;}    
 
-.ourteam-link{
-    padding-top: 4px;
+.ourteam-link{padding-top: 4px;
     padding-bottom: 32px;
     font-weight: 400;
     font-size: 16px;
@@ -219,16 +213,14 @@ button {cursor: pointer;}
 
 /*============Our Portfolio============*/
 
-.portfolio-container{
-    display: flex;
+.portfolio-container{display: flex;
     flex-wrap: wrap; 
     gap: 18px;
     width: 1128;
     padding-top: 70px;
     padding-bottom: 120px;}
 
-.op-h{
-    text-align: center;
+.op-h{text-align: center;
     padding-top: 60px;
     font-weight: 700;
     font-size: 36px;
@@ -257,7 +249,10 @@ button {cursor: pointer;}
     letter-spacing: 0.02em;
     padding-top: 4px;
     padding-bottom: 32px;}    
-/*=============FOOTER============*/
+
+
+    /*=============FOOTER============*/
+
 
 .footer-menu{display: flex;
     max-width: 1440px;
