@@ -142,7 +142,7 @@ button {cursor: pointer;}
     padding-top: 120px;
     padding-bottom: 60px;}
 
-.visually-hidden {
+.visually-hidden{
     position: absolute;
     width: 1px;
     height: 1px;
@@ -191,8 +191,9 @@ button {cursor: pointer;}
     padding-top: 120px;
     padding-bottom: 60px;}
 
- 
- 
+    
+
+    
 .ourteam-fhoto{
     background-color:#FFFFFF;}    
 
