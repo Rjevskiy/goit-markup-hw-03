@@ -208,25 +208,30 @@ button {cursor: pointer;}
 
 /*========Our-Portfolio======*/
 
-.portfolio-container{display: flex;
-    flex-wrap: wrap; 
-    gap: 18px;
-    width: 1128;
-    padding-top: 70px;
-    padding-bottom: 120px;}
-
 .op-h{text-align: center;
     padding-top: 60px;
     font-weight: 700;
     font-size: 36px;
     line-height:1.11;
-    letter-spacing: 0.02em;}    
+    letter-spacing: 0.02em;
+    margin-bottom: 72px;}    
+
+.portfolio-container{display: flex;
+    flex-wrap: wrap; 
+    gap: 18px;
+    width: 1128;
+    padding-top: 70px;
+    padding-bottom: 120px;
+    column-gap: 24px;
+    row-gap: 48px;}
 
 .li-container{display: flex;
     flex-direction: column;
     border-bottom: 1px solid #e7e9fc;
     border-left: 1px solid #e7e9fc;
-    border-right: 1px solid #e7e9fc;}    
+    border-right: 1px solid #e7e9fc;
+    padding-top: 120px;
+    padding-bottom: 120px;}    
 
 .op-item{font-weight: 500;
     font-size: 20px;
