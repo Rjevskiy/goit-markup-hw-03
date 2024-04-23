@@ -96,9 +96,8 @@ button {cursor: pointer;}
     gap: 48px;
     align-items:center;     
     padding-top: 188px;
-    padding-bottom: 188px;
-    padding-left: 331px;
-    padding-right: 331px;}
+    max-width: 496px;
+    padding-bottom: 188px;}
 
 
 .hero-page{font-weight: 700px; 
