@@ -86,17 +86,17 @@ button {cursor: pointer;}
 
 /*=========hero page===========*/ 
 
-    .hero{background-color:#2e2f42;
-        max-width: 1440px;
-        margin-left: auto;
-        margin-right: auto;}
+.hero{background-color:#2e2f42;
+    max-width: 1440px;
+    margin-left: auto;
+    margin-right: auto;}
 
 .hero-container{display: flex;
     flex-direction: column;
     gap: 48px;
     align-items:center;     
     padding-top: 188px;
-    max-width: 496px;
+    max-width: 600px;
     padding-bottom: 188px;}
 
 
@@ -105,6 +105,7 @@ button {cursor: pointer;}
     line-height: 1.07;
     letter-spacing: 0.02em;
     text-align: center;
+    max-width: 496px;
     color: #fff;}
  
 
