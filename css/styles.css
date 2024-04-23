@@ -189,8 +189,7 @@ button {cursor: pointer;}
     
 .ourteam-fhoto{background-color:#FFFFFF;}    
 
-.ourteam-item{text-align: center;
-    padding-top: 32px;}    
+.ourteam-item{text-align: center;}    
 
 .ourteam-link{padding-top: 4px;
     padding-bottom: 32px;
@@ -199,6 +198,12 @@ button {cursor: pointer;}
     line-height: 1.5;
     letter-spacing: 0.02em;
     text-align: center;}
+
+.cart-container{display: flex;
+    flex-direction: column;
+    padding-top: 32px;
+    padding-bottom: 32px;
+}    
 
 /*========Our-Portfolio======*/
 
