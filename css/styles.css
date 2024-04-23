@@ -233,12 +233,12 @@ button {cursor: pointer;}
     border-bottom: 1px solid #e7e9fc;
     border-left: 1px solid #e7e9fc;
     border-right: 1px solid #e7e9fc;
-    width: calc((100% - 48px) / 3)}    
-
-.ourportfolio{display: flex;
+    width: calc((100% - 48px) / 3)
     padding: 32px 16px
     border: 1px solid #e7e9fc;
-    border-top: none;}
+    border-top: none;}    
+
+/*.ourportfolio{display: flex;}*/
 
 .op-item{font-weight: 500;
     font-size: 20px;
