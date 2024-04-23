@@ -167,19 +167,19 @@ button {cursor: pointer;}
     max-width: 1440px;
     margin-left: auto;
     margin-right: auto;
-    padding-top: 60px;
-    padding-bottom: 60px;}
+    padding-top: 120px;
+    padding-bottom: 120px;}
 
 
 .ourteam-h{font-weight: 700;
     font-size: 36px;
-    text-align: center;} 
+    text-align: center;
+    margin-bottom: 72px} 
 
 .photo-container{display: flex;
     flex-direction: row;
     gap: 24px;
     border-radius: 0 0 4px 4px;
-    padding-top: 120px;
     padding-bottom: 60px;}
     
 .ourteam-fhoto{background-color:#FFFFFF;}    
