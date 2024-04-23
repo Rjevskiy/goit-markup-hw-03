@@ -129,14 +129,16 @@ button {cursor: pointer;}
 
 /*===========benefits page===============*/ 
 
+.benefits{display: flex;
+    padding-top: 120px;
+    padding-bottom: 120px;}
+
 .benefits-container{width: 1128px;
     display: flex;
     flex-direction: row;
     justify-content:space-evenly;
     align-items: stretch;
-    gap: 24px;
-    padding-top: 120px;
-    padding-bottom: 120px;}
+    gap: 24px;}
 
 .visually-hidden {position: absolute;
     width: 1px;
@@ -149,8 +151,11 @@ button {cursor: pointer;}
     clip: rect(0 0 0 0);
     overflow: hidden;}
 
+.li-benefits{width: calc((100% - 72px) / 4); }
+
 .benefits-item{font-weight: 500;
     font-size: 20px;
+    margin-bottom: 8px; 
     line-height: 1.2;
     letter-spacing: 0.02em;
     color:#2e2f42;}
