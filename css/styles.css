@@ -189,7 +189,8 @@ button {cursor: pointer;}
     
 .ourteam-fhoto{background-color:#FFFFFF;}    
 
-.ourteam-item{text-align: center;}    
+.ourteam-item{text-align: center;
+    margin-bottom: 8px}    
 
 .ourteam-link{padding-top: 4px;
     padding-bottom: 32px;
