@@ -86,7 +86,10 @@ button {cursor: pointer;}
 
 /*=========hero page===========*/ 
 
-.hero{background-color:#2e2f42;
+.hero{display: flex;
+    padding-top: 188px;
+    padding-bottom: 188px;
+    background-color:#2e2f42;
     max-width: 1440px;
     margin-left: auto;
     margin-right: auto;}
@@ -95,9 +98,7 @@ button {cursor: pointer;}
     flex-direction: column;
     gap: 48px;
     align-items:center;     
-    padding-top: 188px;
-    max-width: 600px;
-    padding-bottom: 188px;}
+    max-width: 600px;}
 
 
 .hero-page{font-weight: 700px; 
