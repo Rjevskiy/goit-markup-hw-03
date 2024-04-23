@@ -86,37 +86,36 @@ button {cursor: pointer;}
 
 /*=========hero page===========*/ 
 
-.hero{background-color:#2e2f42;
+.hero-container{display: flex;
+    background-color:#2e2f42;
     max-width: 1440px;
     margin-left: auto;
-    margin-right: auto;}
-
-.hero-container{display: flex;
-    flex-direction: column;
-    gap: 48px;
-    align-items:center;     
+    margin-right: auto;
     padding-top: 188px;
-    max-width: 600px;
-    padding-bottom: 188px;}
+    padding-bottom: 188px;
+    flex-direction: column;
+    text-align: center;}
 
-
-.hero-page{font-weight: 700px; 
+.hero{display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #fff;
+    gap: 48px}
+    
+.hero-page{display: flex;
     font-size: 56px;
     line-height: 1.07;
     letter-spacing: 0.02em;
     text-align: center;
-    max-width: 496px;
-    color: #fff;}
- 
+    padding-left: 450px;
+    padding-right: 450px;}
 
-
-.button-item{border: none;
-    min-width: 169px;
+.button-item{display: flex;
+    border: none;
+    max-width: 169px;
     padding-top: 16px;
     padding-bottom: 16px;
-    padding-left: 32px;
-    padding-right: 32px;
-    border-radius: 4px;
+   border-radius: 4px;
     background:#4d5ae5;
     color:#fff;    
     font-weight:500;
