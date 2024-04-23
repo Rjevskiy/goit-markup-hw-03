@@ -208,6 +208,11 @@ button {cursor: pointer;}
 
 /*========Our-Portfolio======*/
 
+.our-team-container{display: flex;
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
 .op-h{text-align: center;
     padding-top: 60px;
     font-weight: 700;
@@ -220,8 +225,7 @@ button {cursor: pointer;}
     flex-wrap: wrap; 
     gap: 18px;
     width: 1128;
-    padding-top: 70px;
-    padding-bottom: 120px;
+    /*padding-bottom: 60px;*/
     column-gap: 24px;
     row-gap: 48px;}
 
