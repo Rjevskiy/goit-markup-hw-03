@@ -21,7 +21,8 @@ button {cursor: pointer;}
 
 .container {max-width: 1158px;
     padding: 0 15px;
-    margin:  0 auto;}
+    margin:  0 auto;
+    outline: 1px solid red;}
 
 .page-body{font-family: "Roboto", sans-serif;background: #FFFFFF;color: #434455;}
 
@@ -94,13 +95,13 @@ button {cursor: pointer;}
 
 /*=========hero page===========*/ 
 
-.hero{display: flex;
+.hero{/*display: flex;*/
     padding-top: 188px;
     padding-bottom: 188px;
-    background-color:#2e2f42;
-    max-width: 1440px;
+    /*max-width: 1440px;
     margin-left: auto;
-    margin-right: auto;}
+    margin-right: auto;*/
+    background-color:#2e2f42;}
 
 .hero-container{display: flex;
     flex-direction: column;
@@ -115,12 +116,16 @@ button {cursor: pointer;}
     letter-spacing: 0.02em;
     text-align: center;
     max-width: 496px;
-    color: #fff;}
+    color: #fff;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 48px;}
  
 
 
 .button-item{border: none;
     min-width: 169px;
+    height: 56px;
     padding-top: 16px;
     padding-bottom: 16px;
     padding-left: 32px;
@@ -130,7 +135,10 @@ button {cursor: pointer;}
     color:#fff;    
     font-weight:500;
     letter-spacing:0.04em;
-    line-height:1.5;}
+    line-height:1.5;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;}
 
 .button-item:hover,
 .button-item:focus{background:#404bbf;}        
@@ -246,11 +254,12 @@ button {cursor: pointer;}
 .ourportfolio{display: flex;
     padding: 32px 16px; 
     border: 1px solid #e7e9fc;
-    border-top: none;}
+    border-top: none;
+    flex-direction: column;}
 
 .op-item{font-weight: 500;
     font-size: 20px;
-    line-height:1.2;
+    line-height:1.2; 
     letter-spacing: 0.02em;
     color: #2e2f42;
     padding-top: 32px;
