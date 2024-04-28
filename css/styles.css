@@ -187,7 +187,8 @@ button {cursor: pointer;}
     border-radius: 4px;
     width: 264px;
     height: 112px;
-    background: #f4f4fd;}
+    background: #f4f4fd;
+    }
 
 .benefits-item{font-weight: 500;
     font-size: 20px;
