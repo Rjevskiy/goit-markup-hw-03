@@ -32,7 +32,8 @@ button {cursor: pointer;}
     border-bottom: 1px solid #e7e9fc;}
 
 .header-container{display: flex;
-    align-items: center;}  
+    align-items: center;
+    height: 72px;}  
 
 .page-navigation{display: flex;
     align-items: center;}
@@ -71,8 +72,18 @@ button {cursor: pointer;}
     line-height: 1.5;
     letter-spacing: 0.02em;
     color:#2e2f42;
-    padding: 24px 0;
-    display: block;}
+    padding-top: 12px;
+    display: block;
+    width: 48px;
+    height: 48px;}
+
+.menu-item-span::after{display: flex;
+    content:"";
+    border-radius: 2px;
+    width: 48px;
+    height: 4px;
+    background: #404bbf;
+    margin-top: 20px;}
 
 .address{color:#434455;font-style: normal;
     margin-left: auto;}
@@ -86,7 +97,7 @@ button {cursor: pointer;}
     letter-spacing: 0.02em;
     color:#434455;}  
 
-    .address-item:hover,   
+.address-item:hover,   
 .address-item:focus{font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
@@ -98,16 +109,17 @@ button {cursor: pointer;}
 .hero{/*display: flex;*/
     padding-top: 188px;
     padding-bottom: 188px;
-    /*max-width: 1440px;*/
+    max-width: 1440px;
     margin-left: auto;
     margin-right: auto;
-    background-color:#2e2f42;}
+    background-color:#2e2f42;
+    /*background-image: url("../images/Dark-bg.png"),url("../images/hero\ image.jpg");*/
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url("../images/hero\ image.jpg");
+    /*background-repeat: no-repeat;*/
+    background-clip: padding-box;
+    background-size: cover;}
 
-.hero-container{display: flex;
-    flex-direction: column;
-    gap: 48px;
-    align-items:center;     
-    max-width: 600px;}
+.hero-container{}
 
 
 .hero-page{font-weight: 700px; 
@@ -169,11 +181,20 @@ button {cursor: pointer;}
 
 .li-benefits{width: calc((100% - 72px) / 4); }
 
+.benefits-list-link{display: flex;
+    flex-direction: column;
+    border: 1px solid #8e8f99;
+    border-radius: 4px;
+    width: 264px;
+    height: 112px;
+    background: #f4f4fd;}
+
 .benefits-item{font-weight: 500;
     font-size: 20px;
     margin-bottom: 8px; 
     line-height: 1.2;
     letter-spacing: 0.02em;
+    margin-top: 8px;
     color:#2e2f42;}
 
 .benefits-link{font-weight: 400;
